@@ -1,0 +1,9 @@
+@charset "UTF-8";
+li:hover h1 {
+  border: 2px solid #FFFF00;
+  color: #ff0000;
+}
+
+li:hover img {
+  transform:scale(2);
+}
