@@ -1,9 +1,52 @@
 @charset "UTF-8";
-li:hover h1 {
-  border: 2px solid #FFFF00;
-  color: #ff0000;
-}
 
-li:hover img {
-  transform:scale(2);
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.carrosel {
+  display: flexbox;
+  width: 1220px;
+  height: 450px;
+  margin: 50px auto;
+  overflow: hidden;
+  border: 2px solid rgba(63, 62, 62, 0.493);
+}
+.carrosel ul {
+  display: flex;
+  list-style: none;
+  width: 4880px;
+  height: 375px;
+}
+.carrosel li {
+  position: relative;
+  animation: slide 40s infinite normal;
+}
+@keyframes slide {
+  0%{left: 0px;}
+
+  15%{left: 0px;}
+
+  25%{left: -1220px;}
+
+  40%{left: -1220px;}
+
+  50%{left: -2440px;}
+
+  60%{left: -2440px;}
+
+  75%{left: -3660px;}
+
+  85%{left: -3660px;}
+
+  100%{left: 0px;}
+}
+.display {
+  background-color: white;
+  color: rgb(58, 58, 58);
+  font-size: large;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: bottom;
 }
