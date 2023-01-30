@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to left, #51ED21, #FB9F07);
+}
+.fotoperfil {
+    margin: auto; 
+    text-align: center;
+}
+.fotoperfil > img {
+    border-radius: 200px;
+    width: 250px;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    margin: auto;
+}
+li {
+    text-decoration: none;
+}
