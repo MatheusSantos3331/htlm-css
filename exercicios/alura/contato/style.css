@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0px;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin-top: 20px;
+}
+.enviar {
+    width: 40%;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+.enviar:hover {
+    background-color: rgb(151, 99, 1);
+    transition-duration: 1s;
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 0 40px;
+    
+    
+}
+thead {
+    background-color: azure;
+
+}
+td, th {
+    border:1px solid black ;
+    padding: 15px 8px;
+}
+
