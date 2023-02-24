@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    height: 150px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    flex : 20%;
+    border: 1px solid red;
+    text-align: center;
+}
+.menu {
+    flex: 80%;
+    text-align: right;
+    flex-flow: row wrap;
+    border: 1px solid orange;
+    padding: 20px;
+}
+.menu > a {
+    text-decoration: none;
+    background-color: blue;
+    text-align: center;
+    
+}
